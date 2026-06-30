@@ -1,9 +1,11 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="257" height="257" viewBox="0 0 24 24">
   <title>bd_double_arrow</title>
-  <g fill="none" stroke-linejoin="round" stroke-linecap="round">
-    <!-- 1. SUBTLE WHITE OUTER BORDER -->
-    <path fill="#FFFFFF" stroke="#FFFFFF" stroke-width="2.1" d="M5 12H3v9h9v-2H5zm7-7h7v7h2V3h-9z"/>
-    <!-- 2. PROPORTIONAL BLUE OUTLINE & GREEN FILL -->
-    <path fill="#00FF00" stroke="#0000FF" stroke-width="1.2" d="M5 12H3v9h9v-2H5zm7-7h7v7h2V3h-9z"/>
+  <g fill="none" stroke-linejoin="round" stroke-linecap="round" transform="translate(12, 12) scale(0.8) translate(-12, -12)">
+    <!-- 1. WHITE OUTER HALO -->
+    <path stroke="#FFFFFF" stroke-width="3.2" d="M 4 12 V 20 H 12 M 12 4 H 20 V 12"/>
+    <!-- 2. BLUE MIDDLE OUTLINE -->
+    <path stroke="#0000FF" stroke-width="2.2" d="M 4 12 V 20 H 12 M 12 4 H 20 V 12"/>
+    <!-- 3. GREEN INNER CORE -->
+    <path stroke="#00FF00" stroke-width="1.2" d="M 4 12 V 20 H 12 M 12 4 H 20 V 12"/>
   </g>
 </svg>
