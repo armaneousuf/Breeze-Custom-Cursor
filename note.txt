@@ -1,0 +1,86 @@
+copy.svg
+```svg
+<svg xmlns="http://www.w3.org/2000/svg" width="257" height="257" viewBox="0 0 24 24">
+  <title>copy</title>
+  <g fill="none" stroke-linejoin="round" stroke-linecap="round">
+    <g stroke="#FFFFFF" stroke-width="2.1">
+      <path fill="#FFFFFF" d="M21 12.06c.02-.41-.2-.79-.58-.96l-15-7.01a.99.99 0 0 0-1.13.2c-.3.3-.38.75-.2 1.13l7 15c.17.35.52.58.91.58h.06c.41-.02.76-.29.89-.68l1.84-5.53l5.53-1.84c.39-.13.66-.48.68-.89z"/>
+      <path fill="#FFFFFF" d="M22 4h-2V2h-2v2h-2v2h2v2h2V6h2z"/>
+    </g>
+    <g stroke="#0000FF" stroke-width="1.2">
+      <path fill="#00FF00" d="M21 12.06c.02-.41-.2-.79-.58-.96l-15-7.01a.99.99 0 0 0-1.13.2c-.3.3-.38.75-.2 1.13l7 15c.17.35.52.58.91.58h.06c.41-.02.76-.29.89-.68l1.84-5.53l5.53-1.84c.39-.13.66-.48.68-.89z"/>
+      <path fill="#00FF00" d="M22 4h-2V2h-2v2h-2v2h2v2h2V6h2z"/>
+    </g>
+  </g>
+</svg>
+```
+crossed_circle.svg
+```svg
+<svg xmlns="http://www.w3.org/2000/svg" width="257" height="257" viewBox="0 0 24 24">
+  <title>crossed_circle</title>
+  <g fill="none" stroke-linejoin="round" stroke-linecap="round">
+    <g stroke="#FFFFFF" stroke-width="2.1">
+      <path fill="#FFFFFF" d="M21 12.06c.02-.41-.2-.79-.58-.96l-15-7.01a.99.99 0 0 0-1.13.2c-.3.3-.38.75-.2 1.13l7 15c.17.35.52.58.91.58h.06c.41-.02.76-.29.89-.68l1.84-5.53l5.53-1.84c.39-.13.66-.48.68-.89z"/>
+      <circle cx="19" cy="5" r="3" fill="#FFFFFF"/>
+      <path d="M 16.9 7.1 L 21.1 2.9"/>
+    </g>
+    <g stroke="#0000FF" stroke-width="1.2">
+      <path fill="#00FF00" d="M21 12.06c.02-.41-.2-.79-.58-.96l-15-7.01a.99.99 0 0 0-1.13.2c-.3.3-.38.75-.2 1.13l7 15c.17.35.52.58.91.58h.06c.41-.02.76-.29.89-.68l1.84-5.53l5.53-1.84c.39-.13.66-.48.68-.89z"/>
+      <circle cx="19" cy="5" r="3" fill="#00FF00"/>
+      <path d="M 16.9 7.1 L 21.1 2.9"/>
+    </g>
+  </g>
+</svg>
+```
+left_ptr.svg (main svg)
+```svg
+<svg xmlns="http://www.w3.org/2000/svg" width="257" height="257" viewBox="0 0 16 16"><path fill="#00FF00" stroke="#0000FF" stroke-width="0.8" stroke-linejoin="round" d="M4.002 2.998a1 1 0 0 1 1.6-.8L13.6 8.2c.768.576.36 1.8-.6 1.8H9.053a1 1 0 0 0-.793.39l-2.466 3.215c-.581.758-1.793.347-1.793-.609z"/></svg>
+```
+link.svg
+```svg
+<svg xmlns="http://www.w3.org/2000/svg" width="257" height="257" viewBox="0 0 24 24">
+  <title>link</title>
+  <g fill="none" stroke-linejoin="round" stroke-linecap="round">
+    <g stroke="#FFFFFF" stroke-width="2.1">
+      <path fill="#FFFFFF" d="M21 12.06c.02-.41-.2-.79-.58-.96l-15-7.01a.99.99 0 0 0-1.13.2c-.3.3-.38.75-.2 1.13l7 15c.17.35.52.58.91.58h.06c.41-.02.76-.29.89-.68l1.84-5.53l5.53-1.84c.39-.13.66-.48.68-.89z"/>
+      <path d="M16 8c1-3 3-4 6-4 M19 2l3 2l-3 3"/>
+    </g>
+    <g stroke="#0000FF" stroke-width="1.2">
+      <path fill="#00FF00" d="M21 12.06c.02-.41-.2-.79-.58-.96l-15-7.01a.99.99 0 0 0-1.13.2c-.3.3-.38.75-.2 1.13l7 15c.17.35.52.58.91.58h.06c.41-.02.76-.29.89-.68l1.84-5.53l5.53-1.84c.39-.13.66-.48.68-.89z"/>
+      <path d="M16 8c1-3 3-4 6-4 M19 2l3 2l-3 3"/>
+    </g>
+  </g>
+</svg>
+```
+move.svg
+```svg
+<svg xmlns="http://www.w3.org/2000/svg" width="257" height="257" viewBox="0 0 24 24">
+  <title>move</title>
+  <g fill="none" stroke-linejoin="round" stroke-linecap="round">
+    <g stroke="#FFFFFF" stroke-width="2.1">
+      <path fill="#FFFFFF" d="M21 12.06c.02-.41-.2-.79-.58-.96l-15-7.01a.99.99 0 0 0-1.13.2c-.3.3-.38.75-.2 1.13l7 15c.17.35.52.58.91.58h.06c.41-.02.76-.29.89-.68l1.84-5.53l5.53-1.84c.39-.13.66-.48.68-.89z"/>
+      <path d="M 16 5 H 22 M 19 2 V 8 M 17.5 3.5 L 16 5 L 17.5 6.5 M 20.5 3.5 L 22 5 L 20.5 6.5 M 17.5 3.5 L 19 2 L 20.5 3.5 M 17.5 6.5 L 19 8 L 20.5 6.5"/>
+    </g>
+    <g stroke="#0000FF" stroke-width="1.2">
+      <path fill="#00FF00" d="M21 12.06c.02-.41-.2-.79-.58-.96l-15-7.01a.99.99 0 0 0-1.13.2c-.3.3-.38.75-.2 1.13l7 15c.17.35.52.58.91.58h.06c.41-.02.76-.29.89-.68l1.84-5.53l5.53-1.84c.39-.13.66-.48.68-.89z"/>
+      <path d="M 16 5 H 22 M 19 2 V 8 M 17.5 3.5 L 16 5 L 17.5 6.5 M 20.5 3.5 L 22 5 L 20.5 6.5 M 17.5 3.5 L 19 2 L 20.5 3.5 M 17.5 6.5 L 19 8 L 20.5 6.5"/>
+    </g>
+  </g>
+</svg>
+```
+question_arrow.svg
+```svg
+<svg xmlns="http://www.w3.org/2000/svg" width="257" height="257" viewBox="0 0 24 24">
+  <title>cursor-info-02</title>
+  <g fill="none" stroke-linejoin="round" stroke-linecap="round">
+    <path fill="#FFFFFF" stroke="#FFFFFF" stroke-width="2.1" d="m10.047 3.449l5.363 2.098c3.093 1.21 4.64 1.816 4.589 2.776s-1.666 1.4-4.894 2.28c-.961.263-1.442.394-1.775.727s-.464.814-.726 1.775c-.88 3.228-1.321 4.843-2.281 4.894s-1.565-1.496-2.776-4.589L5.45 8.047C4.18 4.808 3.548 3.189 4.369 2.368c.82-.82 2.44-.187 5.678 1.08Z"/>
+    <path stroke="#FFFFFF" stroke-width="2.1" d="M18 21.99V22m-2-6.002c0-1.104.895-1.998 2-1.998a1.999 1.999 0 0 1 1.363 3.46c-.606.563-1.363 1.206-1.363 2.034"/>
+
+    <path fill="#00FF00" stroke="#0000FF" stroke-width="1.2" d="m10.047 3.449l5.363 2.098c3.093 1.21 4.64 1.816 4.589 2.776s-1.666 1.4-4.894 2.28c-.961.263-1.442.394-1.775.727s-.464.814-.726 1.775c-.88 3.228-1.321 4.843-2.281 4.894s-1.565-1.496-2.776-4.589L5.45 8.047C4.18 4.808 3.548 3.189 4.369 2.368c.82-.82 2.44-.187 5.678 1.08Z"/>
+    <path stroke="#0000FF" stroke-width="1.2" d="M18 21.99V22m-2-6.002c0-1.104.895-1.998 2-1.998a1.999 1.999 0 0 1 1.363 3.46c-.606.563-1.363 1.206-1.363 2.034"/>
+  </g> 
+</svg>
+```
+
+
+

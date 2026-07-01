@@ -1,11 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="257" height="257" viewBox="0 0 24 24">
-  <title>fd_double_arrow</title>
-  <g fill="none" stroke-linejoin="round" stroke-linecap="round" transform="translate(12, 12) rotate(90) scale(0.8) translate(-12, -12)">
-    <!-- 1. WHITE OUTER HALO -->
-    <path stroke="#FFFFFF" stroke-width="3.2" d="M 4 12 V 20 H 12 M 12 4 H 20 V 12"/>
-    <!-- 2. BLUE MIDDLE OUTLINE -->
-    <path stroke="#0000FF" stroke-width="2.2" d="M 4 12 V 20 H 12 M 12 4 H 20 V 12"/>
-    <!-- 3. GREEN INNER CORE -->
-    <path stroke="#00FF00" stroke-width="1.2" d="M 4 12 V 20 H 12 M 12 4 H 20 V 12"/>
+  <title>top_left_corner</title>
+  <g transform="rotate(0 12 12)">
+    <path fill="#00FF00" stroke="#0000FF" stroke-width="1.2" stroke-linejoin="round" d="M6.414 5H10V3H3v7h2V6.414l4.293 4.293l1.414-1.414zM21 14h-2v3.586l-4.293-4.293l-1.414 1.414L17.586 19H14v2h7z"/>
   </g>
 </svg>

@@ -23,8 +23,8 @@ win_name = 'Move'
 
 [cursors.bd_double_arrow]
 png = 'bd_double_arrow.png'
-x_hotspot = 127
-y_hotspot = 124
+x_hotspot = 128
+y_hotspot = 128
 win_name = 'Dgn1'
 
 [cursors.cross]
@@ -37,14 +37,14 @@ win_name = 'Unavailable'
 
 [cursors.fd_double_arrow]
 png = 'fd_double_arrow.png'
-x_hotspot = 126
-y_hotspot = 125
+x_hotspot = 128
+y_hotspot = 128
 win_name = 'Dgn2'
 
 [cursors.hand1]
 png = 'hand1.png'
-x_hotspot = 144
-y_hotspot = 90
+x_hotspot = 119
+y_hotspot = 180
 win_name = 'Pan'
 
 [cursors.hand2]
@@ -55,8 +55,8 @@ win_name = 'Link'
 
 [cursors.move]
 png = 'move.png'
-x_hotspot = 5
-y_hotspot = 5
+x_hotspot = 69
+y_hotspot = 30
 win_name = 'Grabbing'
 
 [cursors.left_ptr]
@@ -80,8 +80,8 @@ win_name = 'Handwriting'
 
 [cursors.question_arrow]
 png = 'question_arrow.png'
-x_hotspot = 7
-y_hotspot = 2
+x_hotspot = 69
+y_hotspot = 30
 win_name = 'Help'
 
 [cursors.right_ptr]
@@ -92,14 +92,14 @@ win_name = 'Alternate'
 
 [cursors.sb_h_double_arrow]
 png = 'sb_h_double_arrow.png'
-x_hotspot = 127
-y_hotspot = 125
+x_hotspot = 128
+y_hotspot = 128
 win_name = 'Horz'
 
 [cursors.sb_v_double_arrow]
 png = 'sb_v_double_arrow.png'
-x_hotspot = 126
-y_hotspot = 125
+x_hotspot = 128
+y_hotspot = 128
 win_name = 'Vert'
 
 [cursors.wait]

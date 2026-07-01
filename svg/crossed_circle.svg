@@ -1,17 +1,8 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="257" height="257" viewBox="0 0 24 24">
   <title>crossed_circle</title>
-  <g fill="none" stroke-linejoin="round" stroke-linecap="round">
-    <!-- 1. SUBTLE WHITE OUTER BORDER -->
-    <g stroke="#FFFFFF" stroke-width="2.1">
-      <path fill="#FFFFFF" d="M21 12.06c.02-.41-.2-.79-.58-.96l-15-7.01a.99.99 0 0 0-1.13.2c-.3.3-.38.75-.2 1.13l7 15c.17.35.52.58.91.58h.06c.41-.02.76-.29.89-.68l1.84-5.53l5.53-1.84c.39-.13.66-.48.68-.89z"/>
-      <circle cx="19" cy="5" r="3" fill="#FFFFFF"/>
-      <path d="M 16.9 7.1 L 21.1 2.9"/>
-    </g>
-    <!-- 2. PROPORTIONAL BLUE OUTLINE & GREEN FILL -->
-    <g stroke="#0000FF" stroke-width="1.2">
-      <path fill="#00FF00" d="M21 12.06c.02-.41-.2-.79-.58-.96l-15-7.01a.99.99 0 0 0-1.13.2c-.3.3-.38.75-.2 1.13l7 15c.17.35.52.58.91.58h.06c.41-.02.76-.29.89-.68l1.84-5.53l5.53-1.84c.39-.13.66-.48.68-.89z"/>
-      <circle cx="19" cy="5" r="3" fill="#00FF00"/>
-      <path d="M 16.9 7.1 L 21.1 2.9"/>
-    </g>
+  <g fill="none" stroke="#0000FF" stroke-width="1.2" stroke-linejoin="round" stroke-linecap="round">
+    <path fill="#00FF00" d="M6.003 4.497A1.5 1.5 0 0 1 8.403 3.297L20.4 12.3c1.152.864.54 2.7-.9 2.7h-5.921a1.5 1.5 0 0 0-1.189.585l-3.699 4.823c-.871 1.137-2.69.52-2.69-.914z"/>
+    <circle cx="19" cy="5" r="3" fill="#00FF00"/>
+    <path d="M 16.9 7.1 L 21.1 2.9"/>
   </g>
 </svg>
