@@ -11,7 +11,7 @@
     "dir": "svg",
     "out": "bitmaps/BreezeX-Black",
     "colors": [
-      { "match": "#00FF00", "replace": "#4D4861" },
+      { "match": "#00FF00", "replace": "#2c6975" },
       { "match": "#0000FF", "replace": "#FFFFFF" }
     ]
   },
