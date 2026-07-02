@@ -1,7 +1,13 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="257" height="257" viewBox="0 0 24 24">
-  <title>cursor-info-02</title>
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="257" height="257" viewBox="0 0 24 24" version="1.1">
+  <title>question_arrow</title>
   <g fill="none" stroke="#0000FF" stroke-width="1.2" stroke-linejoin="round" stroke-linecap="round">
+    
     <path fill="#00FF00" d="M6.003 4.497A1.5 1.5 0 0 1 8.403 3.297L20.4 12.3c1.152.864.54 2.7-.9 2.7h-5.921a1.5 1.5 0 0 0-1.189.585l-3.699 4.823c-.871 1.137-2.69.52-2.69-.914z"/>
-    <path d="M18 21.99V22m-2-6.002c0-1.104.895-1.998 2-1.998a1.999 1.999 0 0 1 1.363 3.46c-.606.563-1.363 1.206-1.363 2.034"/>
+    
+    <circle cx="14" cy="8" r="4.5" fill="#00FF00"/>
+<path d="M12.2 6.2c0-.99.81-1.8 1.8-1.8a1.8 1.8 0 0 1 1.226 3.114c-.545.507-1.226 1.15-1.226 1.87"/>
+<path d="M14 11.29V11.3"/>
+    
   </g>
 </svg>

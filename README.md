@@ -79,6 +79,7 @@ themes/BreezeX-Dark/
 
 Your login screen runs under a system user and cannot access your home folder (~/.icons/). The deploy.sh script automatically handles copying your cursor theme to /usr/share/icons/ so that your cursor theme is available for the login screen.
 
+> Note: This repository is a personalized version of the original theme, modified for my specific workflow. It serves as a practical showcase for high-fidelity custom cursors that remain sharp and pixel-perfect even during scaling or "shake-to-find" animations.
 ---
 
 ## Cursor Icons Gallery

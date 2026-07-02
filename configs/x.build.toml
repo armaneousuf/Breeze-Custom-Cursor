@@ -97,8 +97,8 @@ x11_symlinks = ["cross_reverse", "diamond_cross", "tcross", "crosshair"]
 
 [cursors.crossed_circle]
 png = 'crossed_circle.png'
-x_hotspot = 69
-y_hotspot = 30
+x_hotspot = 150
+y_hotspot = 86
 x11_name = 'crossed_circle'
 x11_symlinks = ["forbidden", "not-allowed"]
 
@@ -372,12 +372,12 @@ x11_symlinks = ["x-cursor"]
 
 [cursors.zoom-in]
 png = 'zoom-in.png'
-x_hotspot = 109
-y_hotspot = 103
+x_hotspot = 123
+y_hotspot = 123
 x11_name = 'zoom-in'
 
 [cursors.zoom-out]
 png = 'zoom-out.png'
-x_hotspot = 109
-y_hotspot = 103
+x_hotspot = 123
+y_hotspot = 123
 x11_name = 'zoom-out'
