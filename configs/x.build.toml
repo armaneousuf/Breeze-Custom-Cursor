@@ -97,8 +97,8 @@ x11_symlinks = ["cross_reverse", "diamond_cross", "tcross", "crosshair"]
 
 [cursors.crossed_circle]
 png = 'crossed_circle.png'
-x_hotspot = 150
-y_hotspot = 86
+x_hotspot = 69
+y_hotspot = 30
 x11_name = 'crossed_circle'
 x11_symlinks = ["forbidden", "not-allowed"]
 

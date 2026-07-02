@@ -4,7 +4,7 @@
     "out": "bitmaps/BreezeX-Dark",
     "sizes": [16, 20, 22, 24, 28, 32, 40, 48, 56, 64, 72, 80, 88, 96, 128, 192, 256],
     "colors": [
-      { "match": "#00FF00", "replace": "#1E1E2E" }, 
+      { "match": "#00FF00", "replace": "#2C2C34" }, 
       { "match": "#0000FF", "replace": "#FFFFFF" }
     ]
   },
@@ -13,7 +13,7 @@
     "out": "bitmaps/BreezeX-Black",
     "sizes": [16, 20, 22, 24, 28, 32, 40, 48, 56, 64, 72, 80, 88, 96, 128, 192, 256],
     "colors": [
-      { "match": "#00FF00", "replace": "#2c6975" },
+      { "match": "#00FF00", "replace": "#565554" },
       { "match": "#0000FF", "replace": "#FFFFFF" }
     ]
   },

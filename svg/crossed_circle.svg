@@ -1,10 +1,66 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="257" height="257" viewBox="0 0 24 24" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink">
-  <title>crossed_circle</title>
-  <g fill="none" stroke="#0000FF" stroke-width="1.2" stroke-linejoin="round" stroke-linecap="round">
-    <path fill="#00FF00" d="M6.003 4.497A1.5 1.5 0 0 1 8.403 3.297L20.4 12.3c1.152.864.54 2.7-.9 2.7h-5.921a1.5 1.5 0 0 0-1.189.585l-3.699 4.823c-.871 1.137-2.69.52-2.69-.914z"/>
-    
-    <circle cx="14" cy="8" r="4.5" fill="#00FF00"/>
-<line x1="11.18" y1="5.18" x2="16.82" y2="10.82"/>
-<line x1="11.18" y1="10.82" x2="16.82" y2="5.18"/>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="257"
+   height="257"
+   viewBox="0 0 24 24"
+   version="1.1"
+   id="svg2"
+   sodipodi:docname="crossed_circle.svg"
+   inkscape:version="1.4.4 (dcaf3e7d9e, 2026-05-05)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="namedview2"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="1.4829983"
+     inkscape:cx="128.11883"
+     inkscape:cy="123.73582"
+     inkscape:window-width="1366"
+     inkscape:window-height="740"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g2" />
+  <title
+     id="title1">crossed_circle</title>
+  <g
+     fill="none"
+     stroke="#0000FF"
+     stroke-width="1.2"
+     stroke-linejoin="round"
+     stroke-linecap="round"
+     id="g2">
+    <path
+       fill="#00FF00"
+       d="M6.003 4.497A1.5 1.5 0 0 1 8.403 3.297L20.4 12.3c1.152.864.54 2.7-.9 2.7h-5.921a1.5 1.5 0 0 0-1.189.585l-3.699 4.823c-.871 1.137-2.69.52-2.69-.914z"
+       id="path1" />
+    <circle
+       cx="14.029165"
+       cy="7.5094094"
+       fill="#00ff00"
+       id="circle1"
+       r="4.5" />
+    <line
+       x1="11.18"
+       y1="5.1799998"
+       x2="17.559591"
+       y2="9.9674854"
+       id="line1" />
+    <line
+       x1="11.18"
+       y1="10.82"
+       x2="16.82"
+       y2="5.18"
+       id="line2" />
   </g>
 </svg>
