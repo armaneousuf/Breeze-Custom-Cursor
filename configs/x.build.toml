@@ -134,16 +134,16 @@ x11_symlinks = [
 
 [cursors.hand1]
 png = 'hand1.png'
-x_hotspot = 119
-y_hotspot = 180
+x_hotspot = 85
+y_hotspot = 43        # Aligned to the open index fingertip
 x11_name = 'hand1'
 win_name = 'Move'
 x11_symlinks = ["grab", "openhand"]
 
 [cursors.hand2]
 png = 'hand2.png'
-x_hotspot = 262
-y_hotspot = 102
+x_hotspot = 131
+y_hotspot = 51        # Aligned to the pointing index fingertip
 x11_name = 'hand2'
 win_name = 'Link'
 x11_symlinks = [
@@ -195,8 +195,8 @@ x11_symlinks = [
 
 [cursors.move]
 png = 'move.png'
-x_hotspot = 69
-y_hotspot = 30
+x_hotspot = 94
+y_hotspot = 61        # Aligned to the clenched index finger knuckle/tip
 x11_name = 'move'
 x11_symlinks = [
   "4498f0e0c1937ffe01fd06f973665830",
