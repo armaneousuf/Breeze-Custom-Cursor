@@ -29,9 +29,9 @@ if ! type -p ctgen >/dev/null; then
 fi
 
 declare -A names
-names["BreezeX-Dark"]=$(with_version "Extended KDE Dark")
-names["BreezeX-Black"]=$(with_version "Extended KDE Black")
-names["BreezeX-Light"]=$(with_version "Extended KDE Light")
+names["Breeze-Dark-Custom"]=$(with_version "Extended KDE Dark")
+names["Breeze-Black-Custom"]=$(with_version "Extended KDE Black")
+names["Breeze-Light-Custom"]=$(with_version "Extended KDE Light")
 
 # Cleanup old builds
 rm -rf themes bin
@@ -68,9 +68,9 @@ for key in "${!names[@]}"; do
   wait $PID
 done
 
-# Compressing BreezeX.tar.xz
+# Compressing Breeze-Custom.tar.xz
 cp ../LICENSE .
-tar -cJvf "../bin/BreezeX.tar.xz" --exclude="*-Windows" . &
+tar -cJvf "../bin/Breeze-Custom.tar.xz" --exclude="*-Windows" . &
 PID=$!
 wait $PID
 

@@ -1,25 +1,25 @@
 {
-  "BreezeX-Dark": {
+  "Breeze-Dark-Custom": {
     "dir": "svg",
-    "out": "bitmaps/BreezeX-Dark",
+    "out": "bitmaps/Breeze-Dark-Custom",
     "sizes": [16, 20, 22, 24, 28, 32, 40, 48, 56, 64, 72, 80, 88, 96, 128, 192, 256],
     "colors": [
       { "match": "#00FF00", "replace": "#2C2C34" }, 
       { "match": "#0000FF", "replace": "#FFFFFF" }
     ]
   },
-  "BreezeX-Black": {
+  "Breeze-Black-Custom": {
     "dir": "svg",
-    "out": "bitmaps/BreezeX-Black",
+    "out": "bitmaps/Breeze-Black-Custom",
     "sizes": [16, 20, 22, 24, 28, 32, 40, 48, 56, 64, 72, 80, 88, 96, 128, 192, 256],
     "colors": [
       { "match": "#00FF00", "replace": "#565554" },
       { "match": "#0000FF", "replace": "#FFFFFF" }
     ]
   },
-  "BreezeX-Light": {
+  "Breeze-Light-Custom": {
     "dir": "svg",
-    "out": "bitmaps/BreezeX-Light",
+    "out": "bitmaps/Breeze-Light-Custom",
     "sizes": [16, 20, 22, 24, 28, 32, 40, 48, 56, 64, 72, 80, 88, 96, 128, 192, 256],
     "colors": [
       { "match": "#00FF00", "replace": "#FFFFFF" },

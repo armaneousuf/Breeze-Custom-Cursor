@@ -2,6 +2,14 @@
 
 A personalized fork of [BreezeX_Cursor](https://github.com/ful1e5/BreezeX_Cursor) by ful1e5 — with icon fixes, hotspot corrections, and native Plasma 6.2+ scalable-cursor (`cursors_scalable`) support layered on top.
 
+## What's Different From Upstream
+
+- Fixed hotspot values on badge-style cursors (X, Y were off in the original)
+- Adjusted [specific icon(s)] design to my preference — *(fill in exactly which ones changed and how)*
+- Fixed [specific problem] in [specific cursor state] — *(fill in the actual bug you fixed)*
+- Added `scripts/generate-scalable.js`: generates Plasma-native SVG cursors (`cursors_scalable/`) alongside the classic XCursor bitmaps, fixing blurry rendering at fractional display scaling — see the full writeup below
+- Added Fedora KDE-specific setup instructions and a `deploy.sh` script for SDDM login-screen deployment
+
 ## Prerequisites (Fedora KDE)
 
 Before compiling the theme from source, you must install the native development libraries, Node.js environment, and Python-based cursor-building tools.
@@ -56,8 +64,8 @@ yarn render                          # renders svg/ -> bitmaps/ (per-theme PNGs 
 ./build.sh                           # builds classic XCursor themes into themes/
 node scripts/generate-scalable.js    # generates Plasma-native SVG cursors (see below)
 
-cp -r themes/BreezeX-Dark ~/.icons/
-sudo cp -r themes/BreezeX-Dark /usr/share/icons/  # needed so SDDM (login screen) can also use the theme
+cp -r themes/Breeze-Dark-Custom themes/Breeze-Black-Custom themes/Breeze-Light-Custom ~/.icons/
+sudo cp -r themes/Breeze-Dark-Custom themes/Breeze-Black-Custom themes/Breeze-Light-Custom /usr/share/icons/  # needed so SDDM (login screen) can also use the theme
 ```
 
 The order matters: `yarn render` has to run before the scalable-generation step, since it reads pixel dimensions from the rendered PNGs in `bitmaps/` to calculate correct cursor scaling. And the scalable-generation step has to run **after** `./build.sh`, not before — `build.sh` deletes and rebuilds the `themes/` directory from scratch every time, which would wipe out the scalable cursors if they existed already.
@@ -71,7 +79,7 @@ Full background and the on-disk format spec is here: [SVG cursors: everything th
 This repo's XCursor build pipeline (`build.sh`, `configs/*.toml`) doesn't know anything about that format on its own — `scripts/generate-scalable.js` is what generates it, as a second, additive output next to `themes/<Theme>/cursors/`:
 
 ```
-themes/BreezeX-Dark/
+themes/Breeze-Dark-Custom/
 ├── cursors/              # classic XCursor bitmaps (unchanged, from build.sh)
 └── cursors_scalable/     # Plasma-native SVG cursors (new, from generate-scalable.js)
 ```
