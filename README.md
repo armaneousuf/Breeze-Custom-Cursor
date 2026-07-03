@@ -2,14 +2,6 @@
 
 A personalized fork of [BreezeX_Cursor](https://github.com/ful1e5/BreezeX_Cursor) by ful1e5 — with icon fixes, hotspot corrections, and native Plasma 6.2+ scalable-cursor (`cursors_scalable`) support layered on top.
 
-## What's Different From Upstream
-
-- Fixed hotspot values on badge-style cursors (X, Y were off in the original)
-- Adjusted [specific icon(s)] design to my preference — *(fill in exactly which ones changed and how)*
-- Fixed [specific problem] in [specific cursor state] — *(fill in the actual bug you fixed)*
-- Added `scripts/generate-scalable.js`: generates Plasma-native SVG cursors (`cursors_scalable/`) alongside the classic XCursor bitmaps, fixing blurry rendering at fractional display scaling — see the full writeup below
-- Added Fedora KDE-specific setup instructions and a `deploy.sh` script for SDDM login-screen deployment
-
 ## Prerequisites (Fedora KDE)
 
 Before compiling the theme from source, you must install the native development libraries, Node.js environment, and Python-based cursor-building tools.
