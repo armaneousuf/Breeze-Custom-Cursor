@@ -23,7 +23,7 @@
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
      inkscape:zoom="2.0972763"
-     inkscape:cx="128.7384"
+     inkscape:cx="128.97681"
      inkscape:cy="128.5"
      inkscape:window-width="1366"
      inkscape:window-height="740"
@@ -38,30 +38,18 @@
      stroke-linejoin="round"
      d="M4.002 2.998a1 1 0 0 1 1.6-.8L13.6 8.2c.768.576.36 1.8-.6 1.8H9.053a1 1 0 0 0-.793.39l-2.466 3.215c-.581.758-1.793.347-1.793-.609z"
      id="path1" />
-  <g
-     id="g3"
-     transform="matrix(0.51270613,0,0,0.50006378,6.1084318,0.77867876)">
-    <ellipse
-       cx="13.499447"
-       cy="16.51745"
-       fill="#0000ff"
-       id="circle1"
-       rx="0.63325197"
-       ry="0.62229007"
-       style="stroke-width:0.1674" />
-  </g>
   <text
      xml:space="preserve"
-     style="font-size:0.747082px;writing-mode:lr-tb;direction:ltr;fill:#0000FF;stroke-width:0.0622568"
-     x="8.0110226"
-     y="-0.52737051"
+     style="font-size:0.747082px;writing-mode:lr-tb;direction:ltr;fill:#0000ff;stroke-width:0.0622568"
+     x="8.0858517"
+     y="-0.42785016"
      id="text1"
      transform="rotate(36.939284)"><tspan
        sodipodi:role="line"
        id="tspan1"
        style="stroke-width:0.0622568"
-       x="8.0110226"
-       y="-0.52737051">free palestine</tspan></text>
+       x="8.0858517"
+       y="-0.42785016">FREE PALESTINE</tspan></text>
   <text
      xml:space="preserve"
      style="font-size:0.747082px;writing-mode:lr-tb;direction:ltr;fill:#1a1a1a;stroke-width:0.0622568"
@@ -70,5 +58,5 @@
      id="text2"><tspan
        sodipodi:role="line"
        id="tspan2"
-       style="stroke-width:0.0622568"></tspan></text>
+       style="stroke-width:0.0622568" /></text>
 </svg>
