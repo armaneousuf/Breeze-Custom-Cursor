@@ -1,6 +1,6 @@
-# BreezeX Cursor
+# Breeze-dark-custom-cursor
 
-A clone of the repository [ful1e5](https://github.com/ful1e5/BreezeX_Cursor)
+A personalized fork of [BreezeX_Cursor](https://github.com/ful1e5/BreezeX_Cursor) by ful1e5 — with icon fixes, hotspot corrections, and native Plasma 6.2+ scalable-cursor (`cursors_scalable`) support layered on top.
 
 ## Prerequisites (Fedora KDE)
 
@@ -22,11 +22,11 @@ If you are setting this up on a fresh machine or starting completely from scratc
 
 #### 1. Clone the Repository
 
-Clone the BreezeX Cursor repository and navigate into the project root:
+Clone the repository and navigate into the project root:
 
 ```Bash
 git clone git@github.com:armaneousuf/Breeze-dark-custom-cursor.git
-cd BreezeX_Cursor
+cd Breeze-dark-custom-cursor
 ```
 
 #### 2. Install Project Dependencies
@@ -37,18 +37,27 @@ Use Yarn to install the node packages required for rendering:
 yarn install
 ```
 
-For next steps use the deploy.sh script by executing `chmod +x deploy.sh` then `./deploy.sh`
+#### 3. Build and Deploy
 
-> NOTE: deploy.sh won't be there by default. It's a script to automate the work so one have to create it or copy paste from this repo
-
-or you can manually do the following steps, **in this exact order**:
+Use the included `deploy.sh` script to automate the remaining steps:
 
 ```Bash
+chmod +x deploy.sh
+./deploy.sh
+```
+
+`deploy.sh` runs the following in order, then installs the theme:
+
+```Bash
+#!/usr/bin/env bash
+set -e
+
 yarn render                          # renders svg/ -> bitmaps/ (per-theme PNGs + colors)
 ./build.sh                           # builds classic XCursor themes into themes/
 node scripts/generate-scalable.js    # generates Plasma-native SVG cursors (see below)
+
 cp -r themes/BreezeX-Dark ~/.icons/
-sudo cp -r themes/BreezeX-Dark /usr/share/icons/ # only needed if you need to change SDDM cursors too
+sudo cp -r themes/BreezeX-Dark /usr/share/icons/  # needed so SDDM (login screen) can also use the theme
 ```
 
 The order matters: `yarn render` has to run before the scalable-generation step, since it reads pixel dimensions from the rendered PNGs in `bitmaps/` to calculate correct cursor scaling. And the scalable-generation step has to run **after** `./build.sh`, not before — `build.sh` deletes and rebuilds the `themes/` directory from scratch every time, which would wipe out the scalable cursors if they existed already.
@@ -77,9 +86,10 @@ themes/BreezeX-Dark/
 
 ## Login Screen (SDDM) Note
 
-Your login screen runs under a system user and cannot access your home folder (~/.icons/). The deploy.sh script automatically handles copying your cursor theme to /usr/share/icons/ so that your cursor theme is available for the login screen.
+Your login screen runs under a system user and cannot access your home folder (`~/.icons/`). The `deploy.sh` script (above) handles this automatically by also copying the theme to `/usr/share/icons/`, which the SDDM system user *can* read.
 
-> Note: This repository is a personalized version of the original theme, modified for my specific workflow. It serves as a practical showcase for high-fidelity custom cursors that remain sharp and pixel-perfect even during scaling or "shake-to-find" animations.
+> This repository is a personalized version of the original theme, modified for my specific workflow and preferences. It doubles as a practical showcase for high-fidelity custom cursors that stay sharp and pixel-perfect even during scaling or "shake-to-find" animations.
+
 ---
 
 ## Cursor Icons Gallery
