@@ -1,4 +1,4 @@
-# Breeze-dark-custom-cursor
+# Breeze-Custom-Cursor
 
 A personalized fork of [BreezeX_Cursor](https://github.com/ful1e5/BreezeX_Cursor) by ful1e5 — with icon fixes, hotspot corrections, and native Plasma 6.2+ scalable-cursor (`cursors_scalable`) support layered on top.
 
@@ -25,8 +25,8 @@ If you are setting this up on a fresh machine or starting completely from scratc
 Clone the repository and navigate into the project root:
 
 ```Bash
-git clone git@github.com:armaneousuf/Breeze-dark-custom-cursor.git
-cd Breeze-dark-custom-cursor
+git clone git@github.com:armaneousuf/Breeze-Custom-Cursor.git
+cd Breeze-Custom-Cursor
 ```
 
 #### 2. Install Project Dependencies
