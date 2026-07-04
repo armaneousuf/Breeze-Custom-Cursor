@@ -40,7 +40,7 @@ const FALLBACK_NOMINAL_SIZE = 24;
 
 // The ground truth for nominal_size is NOT the SVG's own viewBox --
 // it's whatever pixel dimensions the master PNG (the flat file ctgen
-// actually loads, e.g. bitmaps/BreezeX-Dark/left_ptr.png) has. clickgen's
+// actually loads, e.g. bitmaps/Breeze-Dark-Custom/left_ptr.png) has. clickgen's
 // source (parser/png.py) validates and scales hotspot_x/hotspot_y
 // against that file's real pixel size, which can differ from the SVG's
 // authored viewBox (confirmed: left_ptr.svg has viewBox 16x16, but its

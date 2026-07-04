@@ -1,7 +1,7 @@
 [theme]
 name = 'Breeze-Custom-Cursor'
 comment = 'Extended KDE XCursor'
-website = 'https://github.com/armaneousuf/Breeze-dark-custom-cursor'
+website = 'https://github.com/armaneousuf/Breeze-Custom-Cursor'
 
 [config]
 bitmaps_dir = ''   # This config will assigned with `ctgen -d <path>`

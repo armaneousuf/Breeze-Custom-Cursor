@@ -4,7 +4,7 @@
     "out": "bitmaps/Breeze-Dark-Custom",
     "sizes": [16, 20, 22, 24, 28, 32, 40, 48, 56, 64, 72, 80, 88, 96, 128, 192, 256],
     "colors": [
-      { "match": "#00FF00", "replace": "#2C2C34" }, 
+      { "match": "#00FF00", "replace": "#282A36" }, 
       { "match": "#0000FF", "replace": "#FFFFFF" }
     ]
   },
@@ -13,7 +13,7 @@
     "out": "bitmaps/Breeze-Black-Custom",
     "sizes": [16, 20, 22, 24, 28, 32, 40, 48, 56, 64, 72, 80, 88, 96, 128, 192, 256],
     "colors": [
-      { "match": "#00FF00", "replace": "#565554" },
+      { "match": "#00FF00", "replace": "#000000" },
       { "match": "#0000FF", "replace": "#FFFFFF" }
     ]
   },
@@ -22,8 +22,8 @@
     "out": "bitmaps/Breeze-Light-Custom",
     "sizes": [16, 20, 22, 24, 28, 32, 40, 48, 56, 64, 72, 80, 88, 96, 128, 192, 256],
     "colors": [
-      { "match": "#00FF00", "replace": "#FFFFFF" },
-      { "match": "#0000FF", "replace": "#000000" }
+      { "match": "#00FF00", "replace": "#4D4D4D" },
+      { "match": "#0000FF", "replace": "#FFFFFF" }
     ]
   }
 }

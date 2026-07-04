@@ -36,7 +36,7 @@ names["Breeze-Light-Custom"]=$(with_version "Extended KDE Light")
 # Cleanup old builds
 rm -rf themes bin
 
-# Building BreezeX XCursor binaries
+
 for key in "${!names[@]}"; do
   comment="${names[$key]}"
   cfg=$(get_config_file key)
@@ -46,7 +46,7 @@ for key in "${!names[@]}"; do
   wait $PID
 done
 
-# Building BreezeX Windows binaries
+
 for key in "${!names[@]}"; do
   comment="${names[$key]}"
   cfg=$(get_config_file key)
@@ -74,7 +74,6 @@ tar -cJvf "../bin/Breeze-Custom.tar.xz" --exclude="*-Windows" . &
 PID=$!
 wait $PID
 
-# Compressing BreezeX-*-Windows
 for key in "${!names[@]}"; do
   zip -rv "../bin/${key}-Windows.zip" "${key}-Regular-Windows" "${key}-Large-Windows" "${key}-Extra-Large-Windows" &
   PID=$!
