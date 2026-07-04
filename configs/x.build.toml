@@ -54,8 +54,8 @@ x11_name = 'bottom_side'
 
 [cursors.center_ptr]
 png = 'center_ptr.png'
-x_hotspot = 128
-y_hotspot = 30
+x_hotspot = 115
+y_hotspot = 12
 x11_name = 'center_ptr'
 
 [cursors.col-resize]

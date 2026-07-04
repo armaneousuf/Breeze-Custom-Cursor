@@ -1,5 +1,43 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="257" height="257" viewBox="0 0 24 24" version="1.1">
-  <title>center_ptr</title>
-  <path fill="#00FF00" stroke="#0000FF" stroke-width="1.2" stroke-linejoin="round"
-        d="M6.003 4.497A1.5 1.5 0 0 1 8.403 3.297L20.4 12.3c1.152.864.54 2.7-.9 2.7h-5.921a1.5 1.5 0 0 0-1.189.585l-3.699 4.823c-.871 1.137-2.69.52-2.69-.914z"/>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="257"
+   height="257"
+   viewBox="0 0 24 24"
+   version="1.1"
+   id="svg1"
+   sodipodi:docname="center_ptr.svg"
+   inkscape:version="1.4.4 (dcaf3e7d9e, 2026-05-05)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1" />
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="2.0972763"
+     inkscape:cx="128.02319"
+     inkscape:cy="92.739332"
+     inkscape:window-width="1366"
+     inkscape:window-height="740"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg1" />
+  <title
+     id="title1">center_ptr</title>
+  <path
+     fill="#00ff00"
+     stroke="#0000ff"
+     stroke-width="1.2"
+     stroke-linejoin="round"
+     d="m 9.6203286,2.5967713 a 1.5,1.5 0 0 1 2.6818744,-0.086897 l 7.135191,13.1935997 c 0.685361,1.266445 -0.638078,2.678518 -1.946233,2.076579 l -5.378878,-2.475058 a 1.5,1.5 0 0 0 -1.324675,0.03438 L 5.411207,18.174595 C 4.1446739,18.843402 2.7501342,17.522528 3.3495653,16.219823 Z"
+     id="path1" />
 </svg>
