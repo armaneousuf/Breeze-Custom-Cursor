@@ -1,7 +1,7 @@
 [theme]
-name = 'BreezeX-Regular'
+name = 'Breeze-dark-custom-cursor-regular'
 comment = 'Extended KDE Regular Windows Cursor'
-website = 'https://www.github.com/ful1e5/BreezeX_Cursor'
+website = 'https://github.com/armaneousuf/Breeze-dark-custom-cursor'
 
 
 [config]
