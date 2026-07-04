@@ -43,20 +43,20 @@ win_name = 'Dgn2'
 
 [cursors.hand1]
 png = 'hand1.png'
-x_hotspot = 119
-y_hotspot = 180
+x_hotspot = 85      # was 119
+y_hotspot = 43      # was 180
 win_name = 'Pan'
 
 [cursors.hand2]
 png = 'hand2.png'
-x_hotspot = 262
-y_hotspot = 102
+x_hotspot = 131     # was 262
+y_hotspot = 51      # was 102
 win_name = 'Link'
 
 [cursors.move]
 png = 'move.png'
-x_hotspot = 69
-y_hotspot = 30
+x_hotspot = 94      # was 69
+y_hotspot = 61      # was 30
 win_name = 'Grabbing'
 
 [cursors.left_ptr]

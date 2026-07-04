@@ -1,10 +1,11 @@
+<!-- zoom-out.svg -->
 <svg xmlns="http://www.w3.org/2000/svg" width="257" height="257" viewBox="0 0 24 24" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink">
   <title>zoom-out</title>
   <g fill="none" stroke="#0000FF" stroke-width="1.2" stroke-linejoin="round" stroke-linecap="round">
-    <path fill="#00FF00" stroke="none" d="M 3.27 6.75 A 9.5 9.5 0 1 0 6.75 3.27 Z"/>
-    
-    <path d="M18.5 18.5L22 22M6.75 3.27a9.5 9.5 0 1 1-3.48 3.48"/>
-    
-    <path d="M9 11.5H14"/>
+    <path fill="#00FF00" stroke="none" d="M4.31 6.51 A6 6 0 1 0 6.51 4.31 Z"/>
+    <path d="M13.74 13.74L17.5 17.5M6.51 4.31a6 6 0 1 1 -2.2 2.2"/>
+
+    <!-- Just a minus bar, same center -->
+    <path d="M7.25 9.5H11.75"/>
   </g>
 </svg>
