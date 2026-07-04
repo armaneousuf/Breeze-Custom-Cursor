@@ -49,8 +49,8 @@ win_name = 'Pan'
 
 [cursors.hand2]
 png = 'hand2.png'
-x_hotspot = 131     # was 5
-y_hotspot = 51      # was 5
+x_hotspot = 104
+y_hotspot = 19
 win_name = 'Link'
 
 [cursors.move]

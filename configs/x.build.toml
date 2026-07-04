@@ -142,8 +142,8 @@ x11_symlinks = ["grab", "openhand"]
 
 [cursors.hand2]
 png = 'hand2.png'
-x_hotspot = 131
-y_hotspot = 51        # Aligned to the pointing index fingertip
+x_hotspot = 104
+y_hotspot = 19
 x11_name = 'hand2'
 win_name = 'Link'
 x11_symlinks = [
