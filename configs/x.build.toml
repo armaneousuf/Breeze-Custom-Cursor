@@ -372,12 +372,12 @@ x11_symlinks = ["x-cursor"]
 
 [cursors.zoom-in]
 png = 'zoom-in.png'
-x_hotspot = 123
-y_hotspot = 123
+x_hotspot = 102
+y_hotspot = 102 
 x11_name = 'zoom-in'
 
 [cursors.zoom-out]
 png = 'zoom-out.png'
-x_hotspot = 123
-y_hotspot = 123
+x_hotspot = 102
+y_hotspot = 102 
 x11_name = 'zoom-out'

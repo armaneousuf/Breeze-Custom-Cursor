@@ -113,14 +113,14 @@ win_name = 'Text'
 
 [cursors.zoom-in]
 png = 'zoom-in.png'
-x_hotspot = 109
-y_hotspot = 103
+x_hotspot = 102
+y_hotspot = 102 
 win_name = 'Zoom-in'
 
 [cursors.zoom-out]
 png = 'zoom-out.png'
-x_hotspot = 109
-y_hotspot = 103
+x_hotspot = 102
+y_hotspot = 102 
 win_name = 'Zoom-out'
 
 [cursors.person]
