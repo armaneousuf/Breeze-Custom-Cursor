@@ -5,7 +5,7 @@
     "sizes": [16, 20, 22, 24, 28, 32, 40, 48, 56, 64, 72, 80, 88, 96, 128, 192, 256],
     "colors": [
       { "match": "#00FF00", "replace": "#282A36" }, 
-      { "match": "#0000FF", "replace": "#FFFFFF" }
+      { "match": "#0000FF", "replace": "#F8F8F2" }
     ]
   },
   "Breeze-Black-Custom": {
@@ -13,7 +13,7 @@
     "out": "bitmaps/Breeze-Black-Custom",
     "sizes": [16, 20, 22, 24, 28, 32, 40, 48, 56, 64, 72, 80, 88, 96, 128, 192, 256],
     "colors": [
-      { "match": "#00FF00", "replace": "#000000" },
+      { "match": "#00FF00", "replace": "#222823" },
       { "match": "#0000FF", "replace": "#FFFFFF" }
     ]
   },
@@ -22,8 +22,8 @@
     "out": "bitmaps/Breeze-Light-Custom",
     "sizes": [16, 20, 22, 24, 28, 32, 40, 48, 56, 64, 72, 80, 88, 96, 128, 192, 256],
     "colors": [
-      { "match": "#00FF00", "replace": "#4D4D4D" },
-      { "match": "#0000FF", "replace": "#FFFFFF" }
+      { "match": "#00FF00", "replace": "#EFF1F3" },
+      { "match": "#0000FF", "replace": "#464F51" }
     ]
   }
 }
