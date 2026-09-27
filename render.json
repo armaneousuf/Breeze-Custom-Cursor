@@ -4,8 +4,8 @@
     "out": "bitmaps/Breeze-Dark-Custom",
     "sizes": [16, 20, 22, 24, 28, 32, 40, 48, 56, 64, 72, 80, 88, 96, 128, 192, 256],
     "colors": [
-      { "match": "#00FF00", "replace": "#282A36" }, 
-      { "match": "#0000FF", "replace": "#F8F8F2" }
+      { "match": "#00FF00", "replace": "#2E3440" }, 
+      { "match": "#0000FF", "replace": "#D8DEE9" }
     ]
   },
   "Breeze-Black-Custom": {
